@@ -127,7 +127,7 @@
   </header>
 
   <article>
-<p><a href="https://git.axialmi.com/axialmi/ReedJSC/">ReedJSC</a> is an Ahead-of-Time, native compiler for JavaScript I've been developing over the past few months. My aim is to support the ES2025 standard and eventually have full API compatibility with NodeJS.</p>
+<p><a target="_blank" href="https://git.axialmi.com/axialmi/ReedJSC/">ReedJSC</a> is an Ahead-of-Time, native compiler for JavaScript I've been developing over the past few months. My aim is to support the ES2025 standard and eventually have full API compatibility with NodeJS.</p>
 <p>Reed is written in Rust, and uses &quot;whole-program type inference&quot; to convert JavaScript programs to C code, which gets compiled into native Linux binaries. The binaries only depend on <code>libc</code> and a kernel with <code>io_uring</code> support. The generated C is fully statically typed, except for cases where datatypes depend on runtime values (such as JSON parsing).</p>
 <p>First, a taste of what using Reed is like. We can compile JS source files:</p>
 <pre><code class="language-js">// hello.js
@@ -422,6 +422,7 @@ demo_boolean(false);
 <li><a href="https://en.wikipedia.org/wiki/Region-based_memory_management">Region-based memory management</a> in the style of MLKit</li>
 </ul>
 <p>That's about all I can say for now.</p>
+  <p>Find ReedJSC on the <a target="_blank" href="https://git.axialmi.com/axialmi/ReedJSC">Gitea server!</a></p>
 
   </article>
 
